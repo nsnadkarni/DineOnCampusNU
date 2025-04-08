@@ -1,8 +1,6 @@
 import subprocess
 import time
 from selenium import webdriver
-from rimager import *
-
 
 def run_mitmproxy():
     mitmproxy_cmd = [
